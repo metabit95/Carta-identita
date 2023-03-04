@@ -1,0 +1,136 @@
+/****************************** FRONTE *************************/ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border : #000000 solid 1px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003399;
+    color: #fff;
+}
+
+.header img {
+    height: 50px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column h2 {
+    margin-bottom: 10px;
+}
+
+.personal-details p {
+    margin-bottom: 5px;
+    
+}
+
+.right-column_img {
+    max-width: 80%;
+}
+
+.footer {
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+
+.retro {
+    margin-left:auto;
+    font-weight: bold;
+}
+  @media (min-width: 200px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/****************************** RETRO *************************/ 
+
+.containerB {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border : #000000 solid 1px;
+    border-radius: 5px;
+}
+
+.headerB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003399;
+    color: #fff;
+}
+
+.headerB img {
+    height: 50px;
+}
+
+.contentB {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25%;
+    padding: 20px;
+}
+
+.personal-detailsB{
+    margin-bottom: 20px;
+}
+
+.barcode_img{
+    max-width: 100%;
+}
+
+.signature_img{
+    max-width: 60%;
+}
+
+.right-column img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.fronte {
+    margin-left:auto;
+    font-weight: bold;
+}
+
+@media (min-width: 200px) {
+    .containerB {
+        max-width: 768px;
+    }
+}
+
+
